@@ -40,20 +40,44 @@ utility
 /* ---------------------------------
 flex
 --------------------------------- */
+.d-flex
+{
+    display: flex;
+}
+
+.j-c-s-between
+{
+    justify-content: space-between;
+}
+.a-i-center
+{
+    align-items: center;
+}
 
 
 /* ---------------------------------
 general
 --------------------------------- */
+.container
+{
+    width: 100%;
+    padding: 0 30px;
+}
+
+.icons-md
+{
+    font-size: 25px;
+}
 
 
 /* ---------------------------------
 navigation bar
 --------------------------------- */
-nav
+nav>.container
 {
     background-color: var(--color-secondary);
     height: var(--nav-height);
+    color: var(--color-neutral-white);
 }
 
 
