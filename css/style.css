@@ -7,3 +7,75 @@
     border: solid 1px black;
 }
 
+/* ---------------------------------
+palette
+--------------------------------- */
+:root {
+	--color-primary: #9792e4;
+	--color-secondary: #0084fd;
+	--color-secondary-bg: #b5ddff;
+	--color-text-01: #fdc15f;
+	--color-neutral-white: #ffffff;
+	--color-neutral-darker: #333333;
+	--color-neutral-black: #000000;
+}
+
+
+/* ---------------------------------
+variables
+--------------------------------- */
+:root 
+{
+    --nav-height: 80px;
+}
+
+
+
+/* ---------------------------------
+utility
+--------------------------------- */
+
+
+
+/* ---------------------------------
+flex
+--------------------------------- */
+
+
+/* ---------------------------------
+general
+--------------------------------- */
+
+
+/* ---------------------------------
+navigation bar
+--------------------------------- */
+nav
+{
+    background-color: var(--color-secondary);
+    height: var(--nav-height);
+}
+
+
+/* ---------------------------------
+main
+--------------------------------- */
+main>section:nth-child(even)
+{
+    background-color: var(--color-primary);
+}
+
+main>section
+{
+    height: 200px;
+}
+
+
+/* ---------------------------------
+footer
+--------------------------------- */
+footer
+{
+    height: 200px;
+    background-color: var(--color-neutral-darker);
+}
