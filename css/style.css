@@ -52,9 +52,24 @@ utility
     color: var(--color-primary);
 }
 
+.text-yellow
+{
+    color: var(--color-text-02);
+}
+
 .p-relative
 {
     position: relative;
+}
+
+.underline
+{
+    text-decoration: underline;
+}
+
+.fs-0-8
+{
+    font-size: 0.8rem;
 }
 
 .fs-1-2
@@ -70,6 +85,11 @@ utility
 .fs-3
 {
     font-size: 3rem;
+}
+
+.fs-4
+{
+    font-size: 4rem;
 }
 
 .fw-md
@@ -280,6 +300,19 @@ p
     display: inline-block;
 }
 
+.bnt-white
+{
+    color: var(--color-primary);
+    background-color: var(--color-neutral-white);
+    display: inline-block;
+}
+
+.bnt-p-sm
+{
+    padding: 7px 12px;
+    border-radius: 20px;
+}
+
 .bnt-p-md
 {
     padding: 10px 50px;
@@ -288,10 +321,12 @@ p
     border-radius: 20px;
 }
 
-.bnt-p-sm
+.bnt-p-xl
 {
-    padding: 7px 12px;
-    border-radius: 20px;
+    padding: 20px 70px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    border-radius: 40px;
 }
 
 .btn-circle
@@ -393,6 +428,5 @@ footer
 --------------------------------- */
 footer
 {
-    height: 200px;
     background-color: var(--color-neutral-darker);
 }
