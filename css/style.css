@@ -42,6 +42,46 @@ utility
     text-align: center;
 }
 
+.text-white
+{
+    color: var(--color-neutral-white);
+}
+
+.text-primary
+{
+    color: var(--color-primary);
+}
+
+.p-relative
+{
+    position: relative;
+}
+
+.fs-1-2
+{
+    font-size: 1.2rem;
+}
+
+.fs-2
+{
+    font-size: 2rem;
+}
+
+.fs-3
+{
+    font-size: 3rem;
+}
+
+.fw-md
+{
+    font-weight: 400;
+}
+
+.fw-bold
+{
+    font-weight: bold;
+}
+
 .mb-1
 {
     margin-bottom: 1rem;
@@ -60,6 +100,21 @@ utility
 .mt-2
 {
     margin-top: 2rem;
+}
+
+.mb-3
+{
+    margin-bottom: 3rem;
+}
+
+.mt-3
+{
+    margin-top: 3rem;
+}
+
+.mb-5
+{
+    margin-bottom: 5rem;
 }
 
 .p-1
@@ -102,11 +157,25 @@ utility
     padding-top: 3rem;
 }
 
+.letter-spacing
+{
+    letter-spacing: 0.1rem;
+}
+
 .rounded-sm
 {
     border-radius: 1.5rem;
 }
 
+.rounded-lg
+{
+    border-radius: 3rem;
+}
+
+.w-100
+{
+    width: 100%;
+}
 
 /* ---------------------------------
 flex
@@ -159,15 +228,43 @@ h4
 
 p
 {
-    line-height: 1.5em;
+    line-height: 1.7em;
 }
 
 .card-blue
 {
     background-color: var(--color-secondary-bg);
     color: var(--color-secondary);
-    color: var(--color-secondary);
     width: var(--width-100);
+}
+
+.card-white
+{
+    background-color: var(--color-neutral-white);
+    color: var(--color-neutral-black);
+    width: var(--width-100);
+}
+
+.card-primary
+{
+    background-color: var(--color-primary);
+    color: var(--color-neutral-white);
+    width: var(--width-100);
+}
+
+.testimonial-container
+{
+    width: 200px;
+    height: 200px;
+    display: inline-block;
+}
+
+.testimonial-container img
+{
+    border-radius: 50%;
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
 }
 
 .bnt-blue
@@ -176,13 +273,34 @@ p
     background-color: var(--color-secondary);
 }
 
+.bnt-primary
+{
+    color: var(--color-neutral-white);
+    background-color: var(--color-primary);
+    display: inline-block;
+}
+
 .bnt-p-md
 {
     padding: 10px 50px;
     font-weight: bold;
     letter-spacing: 2px;
     border-radius: 20px;
-    margin-top: 50px;
+}
+
+.bnt-p-sm
+{
+    padding: 7px 12px;
+    border-radius: 20px;
+}
+
+.btn-circle
+{
+    width: 3rem;
+    height: 3rem;
+    background-color: var(--color-primary);
+    border-radius: 50%;
+    display: inline-flex;
 }
 
 .icons-sm
@@ -217,6 +335,7 @@ nav
     top: 0;
     left: 0;
     width: 100%;
+    z-index: 1000;
 }
 
 #navigation-bar
@@ -238,17 +357,21 @@ main>section:nth-child(even)
     background-color: var(--color-primary);
 }
 
+.img-logo
+{
+    position: absolute;
+    color: var(--color-primary);
+    font-size: 60px;
+    right: 0;
+    top: 0;
+}
+
 /* intro */
 
 .card-box
 {
     margin-left: -1rem;
     margin-right: -1rem;
-}
-
-.fw-bold
-{
-    font-weight: bold;
 }
 
 .text-grey
